@@ -1,0 +1,244 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.com-padd {
+  padding: 40px 0;
+}
+.sec-1 {
+  height: 340px;
+  background-size: cover;
+  display: table;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  transition: 1s;
+}
+
+.navbar-brand {
+  color: #000;
+  font-size: 45px;
+  font-family: Germania;
+  cursor: pointer;
+  width: 200px;
+}
+
+.icon-bar {
+  background-color: #000;
+}
+
+.nav {
+  font-family: Lithos Pro;
+  color: #000;
+  padding: 10px 20px;
+}
+
+.nav li a {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav li a:hover {
+  background: transparent;
+}
+
+.nav li a:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #38fd07;
+  transform: scaleX(0);
+  transition: 0.2s ease-in-out;
+}
+
+.nav li a:hover:after {
+  transform: scaleX(1);
+}
+
+.btn-outline {
+  border: 2px solid white;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.bg-black {
+  background-color: #181818;
+}
+
+.sec-1 {
+  background-image: url("images/bg-home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+
+.text-cnt {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-box h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.text-box p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.section-title h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 20px 0;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.para-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.uses-points {
+  color: #fff;
+}
+
+.uses-points li {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 450;
+}
+
+.para {
+  min-height: 500px;
+}
+
+.para h3 {
+  text-align: center;
+  margin-top: 15%;
+  color: #fff;
+  font-family: nyala;
+  font-size: 44px;
+}
+
+.segments {
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.segments h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.img-caption {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sec-2 {
+  background-image: url("https://ssl.gstatic.com/atari/images/simple-header-blended-small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(24, 24, 24, 1);
+  height: 340px;
+}
+
+.make-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-banner h1 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.img-details h2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.img-details .designation {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: lightgray;
+  font-weight: 450;
+}
+
+.inner-banner p {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 450;
+}
+
+.product-title {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fff;
+}
+
+.prod-desc {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background: #212121;
+}
+
+@media (max-width: 720px) {
+  body {
+    background-size: 100% 100%;
+  }
+
+  .navbar-collapse {
+    background: #212121;
+  }
+
+  .para {
+    min-height: 800px;
+  }
+}
